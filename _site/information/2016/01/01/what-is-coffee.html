@@ -2,6 +2,15 @@
 <html data-wf-domain="larrysgraphics.webflow.io" data-wf-page="5c1969014e91291a7e5ea53f" data-wf-site="5c1969014e912920a65ea53a" data-wf-status="1">
     <head>
        <script type="text/javascript">
+
+        jQuery(document).ready(function($) {
+
+    $(".scroll").click(function(event){     
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top - 59}, 800); 
+    });
+});
+
       document.getElementsByClassName('w-webflow-badge')[0].style.visibility = 'hidden';
      Array.filter( document.getElementsByClassName('w-webflow-badge'), function(elem){ elem.style.visibility = 'hidden'; });</script>
     <meta charset="utf-8"/>
