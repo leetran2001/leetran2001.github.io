@@ -1,0 +1,7 @@
+name: Larry Le Tran
+title: Larry's Graphics
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
